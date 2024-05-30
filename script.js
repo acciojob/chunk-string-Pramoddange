@@ -7,8 +7,8 @@ function stringChop(str, size) {
 			arr.push(str.slice(j,i+1));
 			j=i;
 		}
-			arr.push(str.slice(j,str.length));
-	}
+			
+	arr.push(str.slice(j,str.length));
 	return arr;
 }
 
